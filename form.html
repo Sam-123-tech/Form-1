@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranparent Form</title>
+    <style >
+        body{
+            background-image: url(fire.jpg);
+            background-repeat: no-repeat;
+        }
+        table{
+            border: 7px solid honeydew;
+            border-radius: 25px;
+            color: floralwhite;
+            font-size: 25px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        #type{
+            width: 270px;
+            height: 32px;
+            border: 0;
+            outline: 0;
+            background: transparent;
+            color: azure;
+            font-size: 25px;
+            border-bottom: 3px solid snow;
+        }
+        input::-webkit-input-placeholder{
+            color: linen;
+            font-size: 20px;
+            line-height: 3;
+        }
+        #btn{
+            height: 30px;
+            font-size: 20px;
+            background-color: aquamarine;
+            width: 225px;
+        }
+    </style>
+</head>
+<body>
+    <br><br><br><br>
+    <table width= "25%" border="0" cellspacing="40" align="center">
+        <tr>
+            <td align= "center"><img src="admin.jpg" width="50%" ></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Email" id="type"></td>
+        </tr>
+        <tr>
+            <td><input type="password" placeholder="***********" id="type"></td>
+        </tr>
+        <tr>
+            <td align= "center"><input type="submit" value="Login" id="btn"></td>
+        </tr> 
+    </table>
+</body>
+</html>
